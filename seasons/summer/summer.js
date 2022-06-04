@@ -2,7 +2,7 @@ const shirts = ['White T-shirt', 'Future T-shirts', 'Orange T-shirt', 'Hawain T-
 
 const white_shirt_pants = ['Pale-Pants', 'White-Pants', 'Grey-Shorts', 'Black-Jeans', 'Blue-Jeans', 'Cargo-Pants'];
 
-const future_shirt_pants = ['White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans', 'Black-sports-pants-(green stripes)']; 
+const future_shirt_pants = ['White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans', 'Black-sports-pants-(green-stripes)']; 
 
 const orange_shirt_pants = ['Pale-Pants', 'White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans'];
 
@@ -10,15 +10,15 @@ const hawain_shirt_pants = ['Pale-Pants', 'White-Pants'];
 
 const ferrari_shirt_pants = ['Pale-pants', 'White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans', 'Cargo-pants'];
 
-const black_sport_shirt_pants = ['White-Pants', 'Grey-Shorts', 'Black-Jeans', 'Blue-Jeans', 'Cargo-Pants', 'Black-sports-pants-(green stripes)', 'Black-sports-pants-(white stripe)'];
+const black_sport_shirt_pants = ['White-Pants', 'Grey-Shorts', 'Black-Jeans', 'Blue-Jeans', 'Cargo-Pants', 'Black-sports-pants-(green-stripes)', 'Black-sports-pants-(white-stripe)'];
 
-const octopus_shirt_pants = ['White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans', 'Cargo-pants', 'Black-sports-pants-(green stripes)']; 
+const octopus_shirt_pants = ['White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans', 'Cargo-pants', 'Black-sports-pants-(green-stripes)']; 
 
 const blue_shirt_pants = ['White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans']; 
 
 const shark_shirt_pants = ['Pale-pants', 'White-pants', 'Black-jeans', 'Blue-jeans']; 
 
-const toxic_green_shirt_pants = ['Black-sports-pants-(green stripes)', 'Black-sports-pants-(white stripe)']; 
+const toxic_green_shirt_pants = ['Black-sports-pants-(green stripes)', 'Black-sports-pants-(white-stripe)']; 
 
 const london_shirt_pants = ['White-pants', 'Grey-shorts', 'Black-jeans', 'Blue-jeans', 'Cargo-pants']; 
 
