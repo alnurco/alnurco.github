@@ -56,6 +56,24 @@ const red_shirt_jacket = ['Black-all-season-jacket', 'Nasa-jacket'];
 
 // Arrays for Hoodies that match the shirts 
 
+const white_shirt_hoodie = ['Pink-hoodie', 'Green-hoodie', 'White-hoodie'];
+
+const future_shirt_hoodie = ['Pink-hoodie', 'Black-hoodie', 'Green-hoodie']; 
+
+const orange_shirt_hoodie = ['Pink-hoodie', 'White-hoodie']; 
+
+const ferrari_shirt_hoodie = ['Pink-hoodie', 'White-hoodie']; 
+
+const black_sport_shirt_hoodie = ['Pink-hoodie', 'Black-hoodie', 'Green-hoodie']; 
+
+const octopus_shirt_hoodie = ['Pink-hoodie', 'Black-hoodie', 'Green-hoodie']; 
+
+const blue_shirt_hoodie = ['Pink-hoodie', 'Black-hoodie', 'Green-hoodie']; 
+
+const shark_shirt_hoodie = ['Pink-hoodie', 'Black-hoodie', 'Green-hoodie']; 
+
+const london_shirt_hoodie = ['Pink-hoodie', 'Black-hoodie', 'Green-hoodie']; 
+
 // Random shirt function 
 
 function random_shirt(shirts)
@@ -239,32 +257,95 @@ return red_shirt_jacket[Math.floor(Math.random()*red_shirt_jacket.length)];
 
 // Random hoodie functions 
 
+function wsh(white_shirt_hoodie)
+{
+  
+return white_shirt_hoodie[Math.floor(Math.random()*white_shirt_hoodie.length)];
+     
+}
+
+function fsh(future_shirt_hoodie)
+{
+  
+return future_shirt_hoodie[Math.floor(Math.random()*future_shirt_hoodie.length)];
+     
+}
+
+function osh(orange_shirt_hoodie)
+{
+  
+return orange_shirt_hoodie[Math.floor(Math.random()*orange_shirt_hoodie.length)];
+     
+}
+
+function ferrari_sh(ferrari_shirt_hoodie)
+{
+  
+return ferrari_shirt_hoodie[Math.floor(Math.random()*ferrari_shirt_hoodie.length)];
+     
+}
+
+function bssh(black_sport_shirt_hoodie)
+{
+  
+return black_sport_shirt_hoodie[Math.floor(Math.random()*black_sport_shirt_hoodie.length)];
+     
+}
+
+function octopus_sh(octopus_shirt_hoodie)
+{
+  
+return octopus_shirt_hoodie[Math.floor(Math.random()*octopus_shirt_hoodie.length)];
+     
+}
+
+function bsh(blue_shirt_hoodie)
+{
+  
+return blue_shirt_hoodie[Math.floor(Math.random()*blue_shirt_hoodie.length)];
+     
+}
+
+function ssh(shark_shirt_hoodie)
+{
+  
+return shark_shirt_hoodie[Math.floor(Math.random()*shark_shirt_hoodie.length)];
+     
+}
+
+function lsh(london_shirt_hoodie)
+{
+  
+return london_shirt_hoodie[Math.floor(Math.random()*london_shirt_hoodie.length)];
+     
+}
+
 // Final outfit function 
 
 const outfits = () => {
     switch (random_shirt(shirts)) {
         case 'White T-shirt': 
-            return 'White-Shirt,  ' + wsp(white_shirt_pants) + ', ' + wsj(white_shirt_jacket)
+            return 'White-Shirt,  ' + wsp(white_shirt_pants) + ', ' + wsj(white_shirt_jacket) + ', ' + wsh(white_shirt_hoodie)
         case 'Future T-shirts': 
-            return 'Future-T-shirt,  ' + fsp(future_shirt_pants) + ', ' + fsj(future_shirt_jacket)
+            return 'Future-T-shirt,  ' + fsp(future_shirt_pants) + ', ' + fsj(future_shirt_jacket) + ', ' + fsh(future_shirt_hoodie)
         case 'Orange T-shirt': 
-            return 'Orange-T-shirt,  ' + osp(orange_shirt_pants) + ', ' + osj(orange_shirt_jacket)
+            return 'Orange-T-shirt,  ' + osp(orange_shirt_pants) + ', ' + osj(orange_shirt_jacket) + ', ' + osh(orange_shirt_hoodie)
         case 'Hawain T-shirt': 
             return 'Hawain-T-shirt,  ' + hsp(hawain_shirt_pants) + ', ' + hsj(hawain_shirt_jacket)
         case 'Ferrari T-shirt': 
-            return 'Ferrari-T-shirt,  ' + ferrari_sp(ferrari_shirt_pants) + ', ' + ferrari_sj(ferrari_shirt_jacket)
+            return 'Ferrari-T-shirt,  ' + ferrari_sp(ferrari_shirt_pants) + ', ' + ferrari_sj(ferrari_shirt_jacket) + ', ' + ferrari_sh(ferrari_shirt_hoodie)
         case 'Black sport T-shirt':
-            return 'Black-sport-T-shirt,  ' + bssp(black_sport_shirt_pants) + ', ' + bssj(black_sport_shirt_jacket)
+            return 'Black-sport-T-shirt,  ' + bssp(black_sport_shirt_pants) + ', ' + bssj(black_sport_shirt_jacket) + ', ' + bssh(black_sport_shirt_hoodie)
         case 'Octopus T-shirt': 
-            return 'Octopus-T-shirt,  ' + octopus_sp(octopus_shirt_pants) + ', ' + octopus_sj(octopus_shirt_jacket)
+            return 'Octopus-T-shirt,  ' + octopus_sp(octopus_shirt_pants) + ', ' + octopus_sj(octopus_shirt_jacket) + ', ' + octopus_sh(octopus_shirt_hoodie)
         case 'Blue T-shirt': 
-            return 'Blue-T-shirt,  ' + bsp(blue_shirt_pants) + ', ' + bsj(blue_shirt_jacket)
+            return 'Blue-T-shirt,  ' + bsp(blue_shirt_pants) + ', ' + bsj(blue_shirt_jacket) + ', ' + bsh(blue_shirt_hoodie)
         case 'Shark T-shirt':
-            return 'Shark-T-shirt,  ' + ssp(shark_shirt_pants) + ', ' + ssj(shark_shirt_jacket)
+            return 'Shark-T-shirt,  ' + ssp(shark_shirt_pants) + ', ' + ssj(shark_shirt_jacket) + ', ' + ssh(shark_shirt_hoodie)
         case 'Toxic green sport T-shirt':
             return 'Toxic-green-sport-T-shirt,  ' + tgsp(toxic_green_shirt_pants) + ', ' + tgsj(toxic_green_shirt_jacket)
         case 'London T-shirt':
-            return 'London-T-shirt,  ' + lsp(london_shirt_pants) + ', ' + lsj(london_shirt_jacket)
+            return 'London-T-shirt,  ' + lsp(london_shirt_pants) + ', ' + lsj(london_shirt_jacket) + ', ' + lsh(london_shirt_hoodie)
         case 'Red T-shirt':
             return 'Red-T-shirt,  ' + rsp(red_shirt_pants) + ', ' + rsj(red_shirt_jacket)
     } 
