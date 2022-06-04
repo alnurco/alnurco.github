@@ -1,9 +1,9 @@
 body {
-    background-image: url(/assets/winter.jpg);
+    background-color: rgb(219, 219, 219);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: rgb(245, 240, 240);
+    color: rgb(0, 0, 0);
 }
 
 h1 {
