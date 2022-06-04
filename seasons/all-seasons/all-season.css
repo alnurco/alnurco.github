@@ -1,11 +1,21 @@
 body {
-    background-image: url(/assets/all-season.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(0, 34, 107);
     text-align: center;
     color: rgb(255, 255, 255);
+    font-family: 'Contrail One', cursive;
 }
 
 h1 {
     font-size: 50pt;
+}
+
+hr {
+    width: 300px;
+    border: 1px solid rgb(254, 252, 252);
+}
+
+#arr1 {
+    font-weight: 900;
+    font-size: 17pt;
+    word-spacing:20px;
 }
