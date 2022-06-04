@@ -9,3 +9,13 @@ body {
 h1 {
     font-size: 50pt;
 }
+
+#arr1 {
+    font-weight: 900;
+    font-size: 20pt;
+   word-spacing:20px;
+}
+
+hr {
+    width: 800px;
+}
