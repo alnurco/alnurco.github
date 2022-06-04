@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 11, 202);
 }
 
 h1 {
@@ -13,14 +13,7 @@ h1 {
 #arr1 {
     font-weight: 900;
     font-size: 20pt;
-    margin-left: 500px;
-    margin-right: 500px;
-    word-spacing: 450px;
-}
-
-#arr2 {
-    font-weight: 900;
-    font-size: 20pt;
+   word-spacing:20px;
 }
 
 hr {

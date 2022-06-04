@@ -207,33 +207,33 @@ function rsj(red_shirt_jacket) {
 const outfits = () => {
     switch (random_shirt(shirts)) {
         case 'White T-shirt': 
-            return 'White-Shirt, ' + wsp(white_shirt_pants) // + wsj(white_shirt_jacket)
+            return 'White-Shirt,  ' + wsp(white_shirt_pants) + ', ' + wsj(white_shirt_jacket)
         case 'Future T-shirts': 
-            return 'Future-T-shirt, ' + fsp(future_shirt_pants) // + fsj(future_shirt_jacket)
+            return 'Future-T-shirt,  ' + fsp(future_shirt_pants) + ', ' + fsj(future_shirt_jacket)
         case 'Orange T-shirt': 
-            return 'Orange-T-shirt, ' + osp(orange_shirt_pants)// + osj(orange_shirt_jacket)
+            return 'Orange-T-shirt,  ' + osp(orange_shirt_pants) + ', ' + osj(orange_shirt_jacket)
         case 'Hawain T-shirt': 
-            return 'Hawain-T-shirt, ' + hsp(hawain_shirt_pants) //+ hsj(hawain_shirt_jacket)
+            return 'Hawain-T-shirt,  ' + hsp(hawain_shirt_pants) + ', ' + hsj(hawain_shirt_jacket)
         case 'Ferrari T-shirt': 
-            return 'Ferrari-T-shirt, ' + ferrari_sp(ferrari_shirt_pants) //+ ferrari_sj(ferrari_shirt_jacket)
+            return 'Ferrari-T-shirt,  ' + ferrari_sp(ferrari_shirt_pants) + ', ' + ferrari_sj(ferrari_shirt_jacket)
         case 'Black sport T-shirt':
-            return 'Black-sport-T-shirt, ' + bssp(black_sport_shirt_pants) //+ bssj(black_sport_shirt_jacket)
+            return 'Black-sport-T-shirt,  ' + bssp(black_sport_shirt_pants) + ', ' + bssj(black_sport_shirt_jacket)
         case 'Octopus T-shirt': 
-            return 'Octopus-T-shirt, ' + octopus_sp(octopus_shirt_pants) //+ octopus_sj(octopus_shirt_jacket)
+            return 'Octopus-T-shirt,  ' + octopus_sp(octopus_shirt_pants) + ', ' + octopus_sj(octopus_shirt_jacket)
         case 'Blue T-shirt': 
-            return 'Blue-T-shirt, ' + bsp(blue_shirt_pants) //+ bsj(blue_shirt_jacket)
+            return 'Blue-T-shirt,  ' + bsp(blue_shirt_pants) + ', ' + bsj(blue_shirt_jacket)
         case 'Shark T-shirt':
-            return 'Shark-T-shirt, ' + ssp(shark_shirt_pants) //+ ssj(shark_shirt_jacket)
+            return 'Shark-T-shirt,  ' + ssp(shark_shirt_pants) + ', ' + ssj(shark_shirt_jacket)
         case 'Toxic green sport T-shirt':
-            return 'Toxic-green-sport-T-shirt, ' + tgsp(toxic_green_shirt_pants) //+ tgsj(toxic_green_shirt_jacket)
+            return 'Toxic-green-sport-T-shirt,  ' + tgsp(toxic_green_shirt_pants) + ', ' + tgsj(toxic_green_shirt_jacket)
         case 'London T-shirt':
-            return 'London-T-shirt, ' + lsp(london_shirt_pants) //+ lsj(london_shirt_jacket)
+            return 'London-T-shirt,  ' + lsp(london_shirt_pants) + ', ' + lsj(london_shirt_jacket)
         case 'Red T-shirt':
-            return 'Red-T-shirt, ' + rsp(red_shirt_pants) //+ rsj(red_shirt_jacket)
+            return 'Red-T-shirt,  ' + rsp(red_shirt_pants) + ', ' + rsj(red_shirt_jacket)
     } 
 } 
 
-const outfits_jacket = () => {
+/* const outfits_jacket = () => {
     switch (random_shirt(shirts)) {
         case 'White T-shirt':
             return wsj(white_shirt_jacket)
@@ -261,6 +261,6 @@ const outfits_jacket = () => {
             return rsj(red_shirt_jacket)
     }
 }
+*/
 
-document.getElementById('arr1').innerHTML = outfits();
-document.getElementById('arr2').innerHTML = outfits_jacket();
+document.getElementById('arr1').innerHTML = outfits(); 
